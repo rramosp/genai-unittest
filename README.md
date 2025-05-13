@@ -1,13 +1,10 @@
 # Using LLMs to generate unit tests
 
-Check the notebook. This is the workflow
+Check the notebooks. This is the workflow
 
-- define target function for which to generate unit tests
-- call LLM to generate unit test code
-- run unit test
-- run [test smells](https://github.com/maxpacs98/disertation) to probe for basic desired test properties
-- run [`pylint`](https://www.pylint.org/) to analyze generated test quality
-
+1- Notebook 01 - Generate unittest for a single function and measure code quality metrics on the generated code.
+2- Notebook 02 - Generate unittest for a full repo.
+3- Notebook 03 - Generate counter-function, that ensures that the generated unittests fail.
 
 See also
 
